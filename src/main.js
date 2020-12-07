@@ -10,7 +10,7 @@ import VueAxios from 'vue-axios'
 Vue.use(VueAxios, axios)
 
 // Agregamos la URL base de nuestra API
-axios.defaults.baseURL = 'http://localhost:3000/';
+axios.defaults.baseURL = 'https://desolate-ridge-34605.herokuapp.com/';
 Vue.config.productionTip = false
 
 new Vue({
